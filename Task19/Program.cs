@@ -7,8 +7,6 @@ Console.Clear();
 
 Console.Write("Введите пятизначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-while (true)
-break;
 
 if (num < 10000 || num > 99999)
 {
